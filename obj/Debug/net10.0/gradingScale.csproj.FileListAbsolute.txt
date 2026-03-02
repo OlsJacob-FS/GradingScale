@@ -1,0 +1,14 @@
+/Users/jakeo/Documents/GradingScale/bin/Debug/net10.0/gradingScale
+/Users/jakeo/Documents/GradingScale/bin/Debug/net10.0/gradingScale.deps.json
+/Users/jakeo/Documents/GradingScale/bin/Debug/net10.0/gradingScale.runtimeconfig.json
+/Users/jakeo/Documents/GradingScale/bin/Debug/net10.0/gradingScale.dll
+/Users/jakeo/Documents/GradingScale/bin/Debug/net10.0/gradingScale.pdb
+/Users/jakeo/Documents/GradingScale/obj/Debug/net10.0/gradingScale.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jakeo/Documents/GradingScale/obj/Debug/net10.0/gradingScale.AssemblyInfoInputs.cache
+/Users/jakeo/Documents/GradingScale/obj/Debug/net10.0/gradingScale.AssemblyInfo.cs
+/Users/jakeo/Documents/GradingScale/obj/Debug/net10.0/gradingScale.csproj.CoreCompileInputs.cache
+/Users/jakeo/Documents/GradingScale/obj/Debug/net10.0/gradingScale.dll
+/Users/jakeo/Documents/GradingScale/obj/Debug/net10.0/refint/gradingScale.dll
+/Users/jakeo/Documents/GradingScale/obj/Debug/net10.0/gradingScale.pdb
+/Users/jakeo/Documents/GradingScale/obj/Debug/net10.0/gradingScale.genruntimeconfig.cache
+/Users/jakeo/Documents/GradingScale/obj/Debug/net10.0/ref/gradingScale.dll
