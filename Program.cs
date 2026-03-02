@@ -18,19 +18,27 @@ namespace GradingScale
                 {
                     Console.WriteLine("Invalid Entry. Please try again.");
                     enteringScore = true;
-                }
-
-                var scoreGrade = testScore switch
+                }else if (testScore < 0 || testScore > 100)
                 {
-                    > 100 => "Invalid entry. Please tru again.",
-                    <= 100 and >= 90 => "Grade A: Excellent",
-                    <= 89 and >= 80 => "Grade B: Very Good",
-                    <= 79 and >= 70 => "Grade C: Good",
-                    <= 69 and >= 60 => "Grade D: Needs Improvement",
-                    _ => "Fail: Better Luck Next Time",
-                };
-                Console.WriteLine(scoreGrade);
-                enteringScore = false;
+                    Console.WriteLine("Please enter a score between 0-100");
+                    enteringScore = true;
+                }
+                else
+                {
+                    var scoreGrade = testScore switch
+                    {
+                        > 100 => "Invalid entry. Please try again.",
+                        <= 100 and >= 90 => "Grade A: Excellent",
+                        <= 89 and >= 80 => "Grade B: Very Good",
+                        <= 79 and >= 70 => "Grade C: Good",
+                        <= 69 and >= 60 => "Grade D: Needs Improvement",
+                        _ => "Fail: Better Luck Next Time",
+                    };
+
+                     Console.WriteLine(scoreGrade);     
+                     enteringScore = false;          
+                }
+                
             }while(enteringScore);
             NextScore();
         }
